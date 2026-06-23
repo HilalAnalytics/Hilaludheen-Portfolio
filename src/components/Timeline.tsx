@@ -1,19 +1,19 @@
 import { motion } from 'framer-motion';
 import { portfolioData } from '../data/portfolioData';
-import { GraduationCap, Award, Calendar, Briefcase } from 'lucide-react';
+import { GraduationCap, Award, Calendar } from 'lucide-react';
 
 export default function Timeline() {
   return (
     <section id="timeline" className="section-container bg-white">
       <h2 className="section-title">Experience & Education</h2>
       
-      <div className="max-w-4xl mx-auto mt-16 relative before:absolute before:inset-0 before:ml-5 md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-blue-200 before:via-primary before:to-blue-200">
+      <div className="max-w-4xl mx-auto mt-16 relative before:absolute before:inset-0 before:ml-5 md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b befor[...]
         
         {portfolioData.timeline && portfolioData.timeline.map((item, index) => {
           const isEducation = item.type === 'education';
           return (
             <div key={`timeline-${index}`} className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active mb-12">
-              <div className={`flex items-center justify-center w-10 h-10 rounded-full border-4 border-white text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10 ${isEducation ? 'bg-primary' : 'bg-amber-500'}`}>
+              <div className={`flex items-center justify-center w-10 h-10 rounded-full border-4 border-white text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:trans[...]
                 {isEducation ? <GraduationCap size={20} /> : <Award size={20} />}
               </div>
               
@@ -47,7 +47,7 @@ export default function Timeline() {
         {/* Certifications Nodes */}
         {portfolioData.certifications.map((cert, index) => (
           <div key={`cert-${index}`} className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active mb-12">
-            <div className="flex items-center justify-center w-10 h-10 rounded-full border-4 border-white bg-amber-500 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
+            <div className="flex items-center justify-center w-10 h-10 rounded-full border-4 border-white bg-amber-500 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-[...]
               <Award size={20} />
             </div>
             
