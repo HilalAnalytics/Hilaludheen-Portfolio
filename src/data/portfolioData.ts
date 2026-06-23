@@ -1,14 +1,9 @@
-import { 
-  BarChart, LineChart, PieChart, Database, Target, TrendingUp, 
-  Search, Users, Briefcase, GraduationCap, Award, CheckCircle2 
-} from 'lucide-react';
-
 export const portfolioData = {
   hero: {
     name: "Hilaludheen K H",
     role: "Aspiring Business Analyst",
     tagline: "Business Analytics & Generative AI",
-    description: "Final-semester BBA student with a strong interest in Business Analytics and Generative AI. Skilled in analyzing business problems, interpreting data, and deriving actionable insights to support decision-making.",
+    description: "Final-semester BBA student with a strong interest in Business Analytics and Generative AI. Skilled in analyzing business problems, interpreting data, and deriving actionable insi[...]
     kpis: [
       { label: "Projects", value: "2+" },
       { label: "Certifications", value: "2" },
@@ -21,14 +16,14 @@ export const portfolioData = {
     location: "Kerala, India"
   },
   about: {
-    summary: "I am a Final-semester BBA student with a strong interest in Business Analytics and Generative AI. Skilled in analyzing business problems, interpreting data, and deriving actionable insights to support decision-making. Currently developing expertise in Excel, SQL, Power BI, and data visualization. Eager to apply analytical thinking, business knowledge, and emerging AI technologies to solve real-world business challenges and drive organizational growth.",
+    summary: "I am a Final-semester BBA student with a strong interest in Business Analytics and Generative AI. Skilled in analyzing business problems, interpreting data, and deriving actionable i[...]
     strengths: [
       { title: "Requirements Gathering", icon: "Target" },
       { title: "Data Visualization", icon: "PieChart" },
       { title: "Process Analysis", icon: "TrendingUp" },
       { title: "Analytical Thinking", icon: "Users" }
     ],
-    goals: "Seeking a Business Analyst or Data Analyst role where I can apply analytical thinking, business knowledge, and emerging AI technologies to solve real-world business challenges and drive organizational growth."
+    goals: "Seeking a Business Analyst or Data Analyst role where I can apply analytical thinking, business knowledge, and emerging AI technologies to solve real-world business challenges and driv[...]
   },
   skills: {
     businessAnalysis: [
